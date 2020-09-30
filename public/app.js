@@ -65,11 +65,7 @@ function initialiseThingsRef(user)
 
 function showDate(d){
     const dateDiv= document.querySelector('#Date');
-    txt=d.substring(0,2)+"/";
-    for(i=3;d[i]!='.';i++)
-    {
-        txt+=d[i];
-    }
+    txt=d.replaceAll('.','/');
     dateDiv.innerHTML=txt;
 }
 
@@ -190,6 +186,9 @@ function changeDate(e)
         d=val.replace(/\//g,".");
         if(d[3]=='0'){
             d=d.substring(0,3)+d.substring(4,10);
+        }
+        if(d[0]=='0'){
+            d=d.substring(1,10);
         }
         console.log(d);
     }
