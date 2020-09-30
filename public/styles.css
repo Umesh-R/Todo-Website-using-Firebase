@@ -1,0 +1,169 @@
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}  
+
+.particles-js{
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+canvas{
+    width: 100% !important;
+    height: 720px !important;
+}
+
+.panel {
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 176px;
+    /* height: 70px; */
+    background: rgba(31, 29, 29, 0.623);
+    top:500px;
+    left: 180px;
+    margin: -110px 0 0 -100px;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+input{
+    overflow: visible;
+    padding-bottom: 5px;
+   
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.panelSignedIn {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1em;
+    font-weight: 200;
+    color: blanchedalmond;
+    position: absolute;
+    z-index: 10;
+    width: 50%; 
+    height: fit-content;
+    background: rgb(37, 37, 37);
+    top:30%;
+    left: 25%;
+    display: flex;
+    padding: 1%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+
+}
+
+.jumbotron
+{
+    background-color:rgba(255, 255, 255, 0.705);
+    
+}
+
+.item:hover
+{
+    color:#a266e7c9 !important;
+    border:3px solid rgba(88, 88, 88, 0.795) !important;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+li.item{
+    list-style-type:none;
+    border: 2px solid rgb(59, 58, 58) !important;
+    padding: .75rem;
+    border-radius: 5px;
+    display: block;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a{
+    color: thistle;
+}
+
+#Date
+{
+    margin: auto;
+    font-weight: 600;
+    color: rgb(171, 186, 250);
+    vertical-align: middle;
+    font-size: 200%;
+    float:right;
+
+}
+
+input{
+    margin: 2% 2% 2% 1%;
+}
+
+#todo{
+    padding: 5%;
+    width: 100%;
+}
+
+ul
+{
+    padding: 0%;
+}
+
+svg{
+    vertical-align: middle;
+    color: wheat;
+}
+
+.item:hover .item-delete{
+    visibility:visible;
+}
+
+.item-delete{
+    background: transparent;
+    border: 0;
+    float: right;
+    visibility: hidden;
+}
+
+.item-delete:hover{
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+
+
+.done{
+    text-decoration: line-through;
+    color: rgb(139, 134, 139) ;
+}
+
+#calendarFloat{
+    background: white;
+    margin: 2% 8% 0 92%;
+    border-radius: 5px;
+    padding: 3px 30px 0px 3px;
+}
+
+#dateForm{
+    visibility: hidden;
+    margin: -36% 0 0% 62%;
+    background: rgb(37, 37, 37);
+    color: black;
+    padding: .25em;
+    border-color:black;
+    border:1px;
+}
+
